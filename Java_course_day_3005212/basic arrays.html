@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>basic arrays</title>
+</head>
+<body>
+  <script language="javascript" type="text/javascript">
+    //stangsrd array
+    var firstNames = new Array()
+    firstNames[0] = "Mark";
+    firstNames[1] = "Calleen"
+    firstNames[2] = "Brett"
+    firstNames[3] = "Joan"
+    firstNames[4] = "Rick"
+    //document.write(firstNames)
+    //condensed method
+    var animals = new Array("dog","cat","mouse","hamster","toad")
+    //literal array
+    var companies = ["apple", "google","Sony", "Udemy", "LG"]
+    alert(firstNames[3])
+    alert(animals[3])
+    alert(companies[1])
+
+    firstNames[0] = "David"
+    for(var i=0; i < firstNames.length; i++)
+    {
+      document.write(firstNames[i] + '<br/>')
+    }
+  </script>
+
+</body>
+</html>

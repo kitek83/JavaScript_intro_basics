@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+  <script language="javascript" type="text/javascript">
+    function add(a,b)
+    {
+      var c = a + b
+      document.write('a + b ='+ c + '<br/>')
+    }
+    function subtract(a,b)
+    {
+      c = a - b
+      document.write('a-b=' + c +'<br/>');
+    }
+    function multiply(a,b)
+    {
+      c = a * b
+      document.write('a*b='+c + '<br/>')
+    }
+    function divide(a,b)
+    {
+      c = a / b
+      document.write('a/b='+ c)
+    }
+  </script>
+</head>
+<body>
+  <input type="button" value="add" onclick="add(3,5)"/>
+  <input type="button" value="subtract" onclick="subtract(8,4)"/>
+  <input type="button" value="multiply" onclick="multiply(2,5)"/>
+  <input type="button" value="divide" onclick="divide(16,4)"/>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if_esle_statement</title>
+</head>
+<body>
+    <script language="javascript" type="text/javascript">
+        var playerScore = 25000
+        var highScore = 10000
+        if (playerScore > highScore)
+        {
+            highScore = playerScore;
+            document.write("You attained the high score.")
+        } else
+        {
+            document.write("You did not attain the high score.")
+        }
+        var numericalGrade = 95;
+        var letterGrade;
+        if(numericalGrade > 90)
+        {
+            latterGrade = "A";
+
+        } else if (numericalGrade >=80)
+        {
+            latterGrade = "B";
+        } else if(numericalGrade >=70)
+        {
+            latterGrade = "C"
+        } else if(numericalGrade >= 60)
+        {
+            latterGrade = "D"
+        } else
+        {
+            latterGrade = "F"
+        }
+        document.write("<br/>Your grade is " + latterGrade)
+
+    </script>
+
+</body>
+</html>
